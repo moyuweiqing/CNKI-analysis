@@ -2,21 +2,21 @@
 ###项目简介：
 使用python，从知网上爬取相关的t数据，并进行数据分析，涉及到pycharm和jupyter notebook
 
-###研究过程：
+### 研究过程：
 从知网上抓取以“区块链”为主题的文献，获取文献题名、主要责任者、发表杂志、关键词、文章分类号、引用文献和被引文献等数据；对低价值数据进行清洗；数据处理；对数据结果进行可视化呈现
 
-###技术栈：
+### 技术栈：
 数据抓取：python
 数据处理：python，主要涉及到jieba、networkx库
 可视化：matplotlib、plotly、pyecharts
 
-###存储说明：
+### 存储说明：
 dependence存储的是依赖文件
 main主要的分析部分
 Results存储结果图
 Jupyter notebook里面存放的是.ipynb文件，需要在Jupyter notebook下运行，主要是因为plotly库依赖Jupyter notebook环境
 
-###文件说明：
+### 文件说明：
 CNKI.py是我参考的爬虫文件
 CNKI2.py是最开始用来爬取数据的爬虫文件
 CNKI爬虫（改进版）是我一个师弟做的，用来分析的数据主要从这里爬取，爬取的数据存储在了知网数据.xls文件中
